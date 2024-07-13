@@ -2,7 +2,6 @@
 
 int main(){
     int hora = 60;
-    int  seg = 60;
     int n;
     float m;
     int eq;
