@@ -3,18 +3,20 @@
 
 int main(){
     int vet [8];
-    int i=0;
+    int i=0,j=8;
     int x;
     int cont = 0;
-
+    int naosei;
     for (i = 0 ;i<8;i++){
         scanf("%d",&x);
         vet[i]= x;
         cont ++;
     }
-    while(cont!=0){
-        vet [i] = vet[cont-1];
-        cont --;
-        printf("%d\n",vet[cont]);
+    while (i<j){
+        vet[i]=vet[j];
+        vet [j]=vet [i];
+        i++;
+        j--;
     }
+
 }
