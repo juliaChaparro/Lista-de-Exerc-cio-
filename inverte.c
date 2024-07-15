@@ -2,7 +2,7 @@
 
 
 int main(){
-    int vet [10];
+    int vet [8];
     int i;
     int x;
     int cont = 0;
