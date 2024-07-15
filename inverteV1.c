@@ -1,19 +1,22 @@
 #include<stdio.h>
 
 int main(){
-    int vet [8]={1,2,,3,4,5,6,7,8};
-    int i=0,j=8;
+    int vet [8];
+    int i=0,j=7;
+    int aux;
     int x;
-    int cont = 0;
-    int aux = i ;
+    int fds;
 
+
+    for(fds = 0 ;fds<8;fds++){
+        scanf("%d",&x);
+        vet[fds]= x;
+    }
 
     while (i < j){
-        vet[aux] = vet[i];
-        vet[i]=vet[j];
-        vet[j]= vet[aux];
-
-        aux ++;
+        aux = vet[i];
+        vet[i] = vet[j];
+        vet[j] = aux;
         i++;
         j--;
     }
@@ -21,5 +24,4 @@ int main(){
     for(i=0;i<8;i++){
         printf("%d\n",vet[i]);
     }
-
 }
