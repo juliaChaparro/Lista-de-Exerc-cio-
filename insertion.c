@@ -17,7 +17,7 @@ void insertion(int vet[],int tam){
 
 
 int main(){
-    
+
     int i = 0,j=0 ,vet[5];
     int x = 0;
 
