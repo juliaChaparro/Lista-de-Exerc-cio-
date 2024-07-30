@@ -21,7 +21,6 @@ void selection(float vet[],int tam){
 
 float mediana(float vet[],int tam){
     float i=0.0, j=0.0;
-    float md = 0.0;
     if (tam % 3 != 0){
         i = vet[tam/2];
     }
