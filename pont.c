@@ -27,17 +27,17 @@ int main(){
     printf("o valor de x = %c\n",a);
     printf("o valor de y = %d\n",i);
     printf("o valor de z = %f\n",z);
-    printf("o valor de px = %c\n",a);
-    printf("o valor de py = %d\n",i);
-    printf("o valor de pz = %f\n",z);
+    printf("o valor de px = %c\n",*px);
+    printf("o valor de py = %d\n",*py);
+    printf("o valor de pz = %f\n",*pz);
 
     printf("\n");
 
     printf("o tamanho de x = %ld\n", sizeof(a));
     printf("o tamanho de y = %ld\n", sizeof(i));
     printf("o tamanho de x = %ld\n", sizeof(z));
-    printf("o tamanho de x = %ld\n", sizeof(px));
-    printf("o tamanho de y = %ld\n", sizeof(py));
-    printf("o tamanho de x = %ld\n", sizeof(pz));
+    printf("o tamanho de px = %ld\n", sizeof(px));
+    printf("o tamanho de py = %ld\n", sizeof(py));
+    printf("o tamanho de px = %ld\n", sizeof(pz));
 
 }
